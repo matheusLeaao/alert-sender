@@ -1,0 +1,16 @@
+{
+    "dev": {
+        "app_function": "alert_sender.app",
+        "aws_region": "us-east-1",
+        "profile_name": "default",
+        "project_name": "alert-sender",
+        "runtime": "python3.6",
+        "s3_bucket": "zappa-alert-sender",
+        "aws_environment_variables": {
+            "ERROR_MAIL_LOGIN": "your-email-address",
+            "ERROR_MAIL_PASS": "your-email-password",
+            "X_AUTH_TOKEN": "your-x-auth-token",
+            "WEBHOOK_URL": "your-webhook-url"
+        }
+    }
+}
