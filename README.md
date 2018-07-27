@@ -78,6 +78,6 @@ $ zappa deploy dev
 A lambda requer as seguintes variáveis de ambiente:
 
 - `ERROR_MAIL_LOGIN`: Nome de usuário do email que recebera caso de erro.
-- `ERRO_MAIL_PASS`: Senha do usuário do email que recebera caso de erro.
+- `ERROR_MAIL_PASS`: Senha do usuário do email que recebera caso de erro.
 - `WEBHOOK_URL`: URL do servidor que a payload deve ser direcionada.
 - `X_AUTH_TOKEN`: Token de autenticação da payload.
