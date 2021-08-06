@@ -45,7 +45,7 @@ $ ./alert-lambda/bin/pip3 install zappa flask-restful
 - Clone este repo
 
 ```sh
-$ git clone git@gitlab.com:Rivendel-Monit/lambdas/alert-sender.git
+$ git clone https://github.com/matheusLeaao/alert-sender.git
 ```
 
 - Mova a função lambda e a configuração do Zappa para o virtualenv
